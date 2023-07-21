@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
-import { useSyncExternalStore } from 'react';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
